@@ -173,7 +173,7 @@ body {background: #040311; font-family: 'Pretendard-Regular';}
 
 .visual .text_box {position: absolute; top: 343px; left: 10vw;}
 
-    .visual .main_text {font-size: 96px; color: transparent; background: radial-gradient(circle, #C075FF 20%, #71F2FF 100%); opacity: 0.7; -webkit-background-clip: text; margin-bottom: 40px; font-family: "dorival-ui-variable",sans-serif;
+    .visual .main_text {font-size: 5vw; color: transparent; background: radial-gradient(circle, #C075FF 20%, #71F2FF 100%); opacity: 0.7; -webkit-background-clip: text; margin-bottom: 40px; font-family: "dorival-ui-variable",sans-serif;
     font-variation-settings: 'wdth' 90, 'wght' 500, 'slnt' -7;
     animation: mainText 3s infinite;}
     @keyframes mainText {
@@ -194,7 +194,7 @@ body {background: #040311; font-family: 'Pretendard-Regular';}
 
     .visual .reflect {color: transparent; background: radial-gradient(circle, #71F2FF 20%, #C075FF 100%) ; -webkit-background-clip: text; }
 
-    .visual .sub_text {height: 50px; width: 400px; font-family: 'Pretendard-Light'; font-size: 20px; color: #fff; margin-bottom: 80px; opacity: 0.7; white-space: pre-wrap; word-wrap: break-word;}
+    .visual .sub_text {height: 50px; max-width: 400px; font-family: 'Pretendard-Light'; font-size: 20px; color: #fff; margin-bottom: 80px; opacity: 0.7; white-space: pre-wrap; word-wrap: break-word; word-break: keep-all; }
 
 
     .typing-char {
@@ -525,6 +525,9 @@ body {background: #040311; font-family: 'Pretendard-Regular';}
     @media (max-width: 1700px) {
         .centerbox {padding: 0 10vw}
     }
+    @media (max-width: 1600px) {
+        .visual .main_text {font-size: 7vw;}
+    }
     @media (max-width: 1100px) {
         .info-box::before {
             background: rgba(0,0,0,.5);
@@ -537,7 +540,8 @@ body {background: #040311; font-family: 'Pretendard-Regular';}
         .header .hamburger {z-index: 21; position: relative;}
         .header .login_box {display: none;}
 
-        
+        .visual .text_box {left: 30px;}
+        .visual .main_text {font-size: 50px;}
         .centerbox {padding: 0 40px}
         .header .gnb_mo {padding-top: 80px; justify-content: flex-start;  }
 
@@ -577,6 +581,8 @@ body {background: #040311; font-family: 'Pretendard-Regular';}
         }
         .section_box .section01 .centerbox .content li  {margin-top: 20px;}
         .section_box .section01 .centerbox .content li strong {height: 30px;}
+        .noticebox h2 {display: none;}
+        .noticebox ul li {animation: roll 20s linear infinite;}
     }
     
     @media (max-width: 576px) {
