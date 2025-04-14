@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dolby_atmos</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+    
+
+</head>
+
+
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <div class="login_box">
+                <a href="#">Login</a>
+                <a href="#">Sign up</a>
+                <div class="language_box">
+                    <a class="language" href="#">Language</a>
+                    <ul class="language_list">
+                        <li><a href="#">한국어</a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">Deutsch</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            
+            <h1>
+                <a href="#">
+                    <svg width="100%" height="100%" viewBox="0 0 1000 370.954">
+                        <defs>
+                            <clipPath id="logoMask">
+                                <path d="M261.017 370.954h-13.752l38.363-88.449h11.241l37.967 88.449h-13.984l-8.988-21.733h-41.977l-8.87 21.733zm13.24-32.602h33.109l-16.497-41.484-16.612 41.484zm116.491-44.979h28.364v-10.868h-69.087v10.868h28.353v77.581h12.37v-77.581zm81.51-10.868h-19.229v88.449h11.985v-73.959h.246l29.236 73.959h7.87l29.354-73.959h.255v73.959h12.368v-88.449h-19.229l-26.12 67.955h-.257l-26.479-67.955zM668.11 326.61c0 6.502-1.138 12.46-3.394 17.883-2.253 5.425-5.369 10.094-9.316 14.018-3.966 3.92-8.678 6.966-14.135 9.146-5.477 2.169-11.411 3.255-17.824 3.255s-12.337-1.086-17.751-3.255c-5.434-2.181-10.114-5.227-14.08-9.146-3.968-3.924-7.041-8.593-9.266-14.018-2.222-5.423-3.328-11.381-3.328-17.883 0-6.567 1.106-12.567 3.328-17.99 2.225-5.425 5.298-10.051 9.266-13.901 3.966-3.838 8.646-6.826 14.08-8.971 5.414-2.132 11.338-3.2 17.751-3.2s12.348 1.068 17.824 3.2c5.457 2.145 10.169 5.133 14.135 8.971 3.947 3.851 7.063 8.477 9.316 13.901 2.257 5.423 3.394 11.423 3.394 17.99m-12.71 0c0-4.595-.765-8.919-2.254-13.003-1.522-4.073-3.647-7.667-6.424-10.752-2.776-3.089-6.116-5.52-10.039-7.308-3.914-1.774-8.34-2.669-13.242-2.669-4.828 0-9.21.895-13.124 2.669-3.913 1.788-7.253 4.219-9.976 7.308-2.734 3.085-4.851 6.679-6.359 10.752-1.5 4.084-2.256 8.408-2.256 13.003 0 4.674.756 9.071 2.256 13.188 1.509 4.115 3.647 7.698 6.413 10.752 2.773 3.047 6.104 5.445 9.974 7.185 3.883 1.743 8.244 2.615 13.072 2.615s9.221-.872 13.178-2.615c3.967-1.739 7.327-4.138 10.104-7.185 2.776-3.054 4.901-6.637 6.424-10.752 1.489-4.116 2.253-8.514 2.253-13.188m96.496-34.437c-2.606-2.931-6.063-5.26-10.327-7.003-4.276-1.739-8.87-2.612-13.771-2.612-3.479 0-6.945.457-10.403 1.361-3.436.915-6.529 2.361-9.252 4.334-2.734 1.984-4.956 4.478-6.659 7.481-1.701 3.016-2.542 6.611-2.542 10.817 0 3.877.629 7.12 1.894 9.726 1.266 2.611 2.926 4.813 4.989 6.6 2.052 1.771 4.401 3.244 7.008 4.387a67.55 67.55 0 0 0 7.955 2.92c2.691.861 5.244 1.706 7.658 2.547 2.415.829 4.541 1.84 6.349 3.025 1.831 1.191 3.266 2.638 4.339 4.335 1.075 1.702 1.607 3.823 1.607 6.349 0 2.542-.521 4.695-1.554 6.472a14.27 14.27 0 0 1-3.966 4.457 16.902 16.902 0 0 1-5.402 2.611 21.88 21.88 0 0 1-5.935.829c-3.895 0-7.488-.904-10.817-2.723-3.328-1.819-5.977-4.196-7.955-7.126l-9.146 7.71c3.243 4.042 7.338 7.094 12.282 9.152 4.958 2.057 10.073 3.078 15.391 3.078 3.722 0 7.327-.51 10.859-1.531 3.531-1.037 6.637-2.595 9.328-4.696 2.688-2.099 4.849-4.747 6.476-7.96 1.607-3.2 2.425-6.981 2.425-11.337 0-4.196-.744-7.657-2.255-10.39-1.498-2.734-3.434-5-5.816-6.829-2.372-1.818-5.032-3.275-7.955-4.393a139.8 139.8 0 0 0-8.669-2.966 381.39 381.39 0 0 1-6.711-2.325c-2.105-.74-3.925-1.654-5.456-2.723-1.543-1.068-2.776-2.383-3.69-3.919-.903-1.548-1.361-3.462-1.361-5.765 0-2.371.489-4.408 1.478-6.115a13.69 13.69 0 0 1 3.862-4.27 15.883 15.883 0 0 1 5.284-2.495 22.119 22.119 0 0 1 5.766-.775c3.563 0 6.764.733 9.613 2.201 2.851 1.457 5.105 3.345 6.775 5.631l8.304-8.07zM0 194.145h28.652c53.454 0 97.049-43.594 97.049-97.068 0-53.481-43.595-97.065-97.049-97.065H0v194.133zM276.172.011h-28.641c-53.476 0-97.061 43.584-97.061 97.065 0 53.475 43.584 97.068 97.061 97.068h28.641V.011zM405.074 0h-70.108v194.145h70.108c53.517 0 97.069-43.552 97.069-97.068C502.144 43.552 458.591 0 405.074 0m-.011 164.711h-40.681V29.434h40.681c37.268 0 67.641 30.375 67.641 67.643 0 37.259-30.373 67.634-67.641 67.634M584.346 59.797c-37.106 0-67.27 30.168-67.27 67.265 0 37.102 30.163 67.269 67.27 67.269 37.095 0 67.259-30.167 67.259-67.269-.001-37.097-30.165-67.265-67.259-67.265m0 107.579c-22.506 0-40.554-18.305-40.554-40.56 0-22.51 18.294-40.553 40.554-40.553 22.248 0 40.553 18.294 40.553 40.553-.001 22.506-18.305 40.56-40.553 40.56m86.297 26.998h29.428V.031h-29.428v194.343zM792.759 59.809c-14.295 0-27.546 4.488-38.459 12.124V.031h-29.491l.01 194.343H754.3v-12.161c10.913 7.63 24.164 12.129 38.459 12.129 37.095 0 67.278-30.179 67.278-67.271 0-37.094-30.183-67.262-67.278-67.262m0 107.567c-17.985 0-33.119-11.704-38.459-27.78-1.339-4.021-2.095-8.312-2.095-12.768 0-4.483.756-8.785 2.095-12.806 5.383-16.171 20.634-27.759 38.459-27.759 22.259 0 40.562 18.305 40.562 40.564-.001 22.506-18.303 40.549-40.562 40.549M967.85 59.84l-38.329 86.201-38.352-86.201h-32.151l54.41 122.304-1.084 2.376-.385.846-11.782 26.61-.075.207c-3.53 7.907-12.836 11.486-20.729 7.961l-4.223-1.872-8.222 18.469-3.657 8.188h.01l.044.021 10.188 4.541c19.133 8.541 41.7-.143 50.262-19.318.076-.164 69.684-155.714 76.225-170.333h-32.15z"/>
+                            </clipPath>
+                        </defs>
+                        <foreignObject width="100%" height="100%" clip-path="url(#logoMask)">
+                            <video width="100%" height="100%" autoplay loop muted playsinline>
+                                <source src="images/logo_video.mp4" type="video/mp4">
+                            </video>
+                        </foreignObject>
+                    </svg>
+                </a>
+            </h1>
+            
+            <ul class="gnb">
+                <li><a href="#">개요</a>
+                    <ul class="lnb">
+                        <li><a href="#">이용방법</a></li>
+                        <li><a href="#">뉴스 & 이벤트</a></li>
+                        <li><a href="#">고객지원</a></li>
+                    </ul>
+                    <span class="light"></span>
+                </li>
+                <li><a href="#">시작하기</a>
+                    <ul class="lnb">
+                        <li><a href="#">음악믹싱</a></li>
+                        <li><a href="#">돌비 애트모스 렌더러</a></li>
+                        <li><a href="#">크리에이션 101</a></li>
+                        <li><a href="#">커리큘럼</a></li>
+                    </ul>
+                    <span class="light"></span>
+                </li>
+                <li><a href="#">전문자원</a>
+                    <ul class="lnb">
+                        <li><a href="#">제작 툴 가이드</a></li>
+                        <li><a href="#">돌비 솔루션</a></li>
+                        <li><a href="#">워크플로우</a></li>
+                    </ul>
+                    <span class="light"></span>
+                </li>
+                <li><a href="#">스튜디오</a>
+                    <ul class="lnb">
+                        <li><a href="#">애비 로드 스튜디오</a></li>
+                        <li><a href="#">가까운 스튜디오 찾기</a></li>
+                        <li><a href="#">온보딩</a></li>
+                    </ul>
+                    <span class="light"></span>
+                </li>
+                <li><a href="#">이벤트</a>
+                    <ul class="lnb">
+                        <li><a href="#">라이브 Q&A</a></li>
+                        <li><a href="#">커뮤니티 세션</a></li>
+                        <li><a href="#">진행중인 이벤트</a></li>
+                    </ul>
+                    <span class="light"></span>
+                </li>
+                <li><a href="#">고객지원</a>
+                    <ul class="lnb">
+                        <li><a href="#">튜토리얼</a></li>
+                        <li><a href="#">웨비나</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">1대1 문의</a></li>
+                    </ul>
+                    <span class="light"></span>
+                </li>
+            </ul>
+            <div class="lnbbg"></div>
+
+            <ul class="gnb_mo"></ul>
+        </div>
+
+        <div class="visual">
+            <video src="images/18433-292228530.mp4" autoplay="" loop="" playsinline="" muted class="css-vlklr0-StyledVideo e18ii6f30"></video>
+            <div class="vignette"></div>
+            <div class="text_box">
+                <p class="main_text"><span class="reflect"><i>A</i>live Sound,</span>
+                    <br>Infinite space.
+                </p>
+                <p class="sub_text typing-text">돌비 애트모스는 유례없이 선명하고 정확도 넘치는 음악의 파워를 보여줍니다.</p>
+                <a href="#" class="go_btn">
+                    <img src="images/go_btn_rac.png" alt="">
+                    <img class="go" src="images/go_btn_cir.png" alt="">
+                    <div class="backfill"></div>
+                </a>
+                <div class="particle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>            
+        </div>
+        
+        <div class="noticebox">
+            <h2>NOTICE</h2>
+            <ul>
+                <li>
+                    <a href="#"><span>돌비 애트모스 경험을 극대화하세요!</span> 돌비 애트모스의 몰입형 사운드를 최적의 환경에서 체험하려면, 지원되는 기기와 콘텐츠를 확인하세요. 최신 영화, 음악, 게임에서 풍부한 사운드를 즐길 준비가 되어 있습니다! <span>[지원 기기 리스트와 콘텐츠 확인하러가기] << CLICK!</span></a>
+                    <a href="#"><span>돌비 애트모스 경험을 극대화하세요!</span> 돌비 애트모스의 몰입형 사운드를 최적의 환경에서 체험하려면, 지원되는 기기와 콘텐츠를 확인하세요. 최신 영화, 음악, 게임에서 풍부한 사운드를 즐길 준비가 되어 있습니다! <span>[지원 기기 리스트와 콘텐츠 확인하러가기] << CLICK!</span></a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="section_box">
+            <section class="section01">
+                <div class="centerbox">
+                    <em>이용방법</em>
+                    <p>돌비 애트모스와 함께 몰입형 사운드의 세계로 안내합니다.
+                        <br>돌비 애트모스를 활용해 몰입형 사운드의 세계를 직접 만들어보세요. 혁신적인 기술과 도구를 통해 상상 속 사운드를 현실로 구현할 수 있습니다!</p>
+                    <ul class="content">
+                        <li>
+                            <a href="#">
+                                <figure class="icon">
+                                    <img src="images/icon01.png" alt="">
+                                </figure>
+                                <strong><img src="images/text-Creation_Release.png" alt=""></strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="icon">
+                                    <img src="images/icon02.png" alt="">
+                                </figure>
+                                <strong><img src="images/text-device.png" alt=""></strong></a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="icon">
+                                    <img src="images/icon03.png" alt="">
+                                </figure>
+                                <strong><img src="images/text-streaming.png" alt=""></strong></a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            
+            <section class="section02 news-events">
+                <div class="centerbox">
+                    <div class="news-events-container">
+                        <div class="news-section">
+                            <h2 class="section-title">
+                                <span><img src="images/News.png" alt=""></span>
+                                <a href="#"><img src="images/btn.png" alt=""></a>
+                            </h2>
+                            <div class="news-item">
+                                <div class="news-title">돌비 포맷 : 돌비 애트모스 차세대 기술</div>
+                                <div class="news-date">25.01.09</div>
+                            </div>
+                            <div class="news-item">
+                                <div class="news-title">방탄소년단 전, 돌비 애트모스로 새 싱글 'I'll Be There' 발매</div>
+                                <div class="news-date">24.10.25</div>
+                            </div>
+                            <div class="news-item">
+                                <div class="news-title">VISION 돌비가 만든 선명함 위한 든더라이저 사운드 시스템 열다</div>
+                                <div class="news-date">24.05.29</div>
+                            </div>
+                            <div class="news-item">
+                                <div class="news-title">Dolby, 새로운 Dolby Atmos 렌더러 애플리케이션 출시</div>
+                                <div class="news-date">23.03.16</div>
+                            </div>
+                            <div class="news-item">
+                                <div class="news-title">Atmos를 맞이한 클래식 뮤직 Dolby Atmos 위한 어레플릭 출시</div>
+                                <div class="news-date">22.07.20</div>
+                            </div>
+                        </div>
+                        <div class="events-section">
+                            <h2 class="section-title">
+                                <span><img src="images/Events.png" alt=""></span>
+                                <a href="#"><img src="images/btn.png" alt=""></a>
+                            </h2>
+                            <div class="event-item">
+                                <div class="event-title">제로 넷킹하며 대화 및 퀴어브 Q&A</div>
+                                <div class="event-date">25.01.08</div>
+                            </div>
+                            <div class="event-item">
+                                <div class="event-title">NAMM 2024에서 돌비 애트모스 컨퍼런스 선보입니다.</div>
+                                <div class="event-date">24.11.29</div>
+                            </div>
+                            <div class="event-item">
+                                <div class="event-title">Dolby Vision Technical Webinar Fall 2024</div>
+                                <div class="event-date">24.09.12</div>
+                            </div>
+                            <div class="event-item">
+                                <div class="event-title">"1일 튜터리얼": 돌비 애트모스 언어 디자인 캐이스 스터디</div>
+                                <div class="event-date">24.03.17</div>
+                            </div>
+                            <div class="event-item">
+                                <div class="event-title">AZ제작 프로우스 디자인 2023</div>
+                                <div class="event-date">23.12.28</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section03 gallery-section">
+                <div class="centerbox">
+                    <h2 class="gallery-title">돌비의 차이를 경험해보세요.</h2>
+                    <div class="gallery-grid">
+                        <div class="gallery-item tall">
+                            <img src="images/sec3_img1.png" alt="음악가">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/sec3_img2.png" alt="Dolby 사운드">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/sec3_img3.png" alt="오디오 기술">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/sec3_img4.png" alt="Apple Music Dolby Atmos">
+                        </div>
+
+
+                        <div class="gallery-item wide">
+                            <img src="images/sec3_img5.png" alt="스튜디오 엔지니어">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/sec3_img6.png" alt="뮤직 프로듀서">
+                        </div>
+
+
+                        <div class="gallery-item">
+                            <img src="images/sec3_img7.png" alt="음향 엔지니어">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="images/sec3_img8.png" alt="Dolby Atmos 로고">
+                        </div>
+                        <div class="gallery-item wide2">
+                            <img src="images/sec3_img9.png" alt="Dolby Atmos 로고">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section04">
+
+               <div class="centerbox">
+                    <div class="info-boxes">
+                        <div class="info-box">
+                            <div class="info-content">
+                                <h3 class="info-title">놀라운 사운드를 경험해보세요!</h3>
+                                <p class="info-text">돌비의 혁신적인 기술로 음악과 영화를 완전히 새로운 차원에서 느낄 수 있는 경험을 누려보세요.</p>
+                                                
+                                <a href="#" class="go_btn">
+                                    <p>감상하기</p>
+                                    <img src="images/go_btn_rac.png" alt="">
+                                    <img class="go" src="images/go_btn_cir.png" alt="">
+                                    <div class="backfill"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="info-box">
+                            <div class="info-content">
+                                <h3 class="info-title">고객지원</h3>
+                                <p class="info-text">궁금한 점이 있으시거나 돌비제품 서비스, 설치나 FAQ 관련하여 대응하는 돌비 홈페이지 지원팀에 문의 주시면 빠르게 도움 드리도록 하겠습니다.</p>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </section>
+
+       
+    </div>
+
+
+        
+    <footer>
+        <div class="centerbox">
+            <div class="container">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Dolby 로고">
+                </div>
+                <div class="footer-links">
+                    <div class="footer-nav">
+                        <a href="#">개인정보 처리방침</a>
+                        <a href="#">이용 약관</a>
+                        <a href="#">EU 개인정보</a>
+                        <a href="#">이용약관</a>
+                        <a href="#">사이트맵</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <img src="images/icon_facebook.png" alt="페이스북">
+                        </a>
+                        <a href="#" aria-label="YouTube">
+                            <img src="images/icon_youtube.png" alt="유투브">
+                            
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <img src="images/icon_insta.png" alt="인스타그램">
+                            
+                        </a>
+                    </div>
+                </div>
+                <div class="copyright">
+                    돌비라보라토리스는 dolby의 심벌 D 문자, 돌비, 돌비 애트모스, 돌비 비전은 돌비라보라토리스의 상표입니다.<br>
+                    그 밖의 모든 상표는 각각의 소유자의 자산입니다. © 2023 Dolby Laboratories, Inc. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script/font.js"></script>
+    <script src="script/typing.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <script src="script/action.js"></script>
+</body>
+</html>
